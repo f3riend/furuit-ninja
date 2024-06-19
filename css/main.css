@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --canvas-background: #13171C;
+}
+
+@font-face {
+    font-family: 'dossis';
+    src: url("../fonts/Dosis-Regular.ttf");
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+}
+
+    canvas
+    {
+        background-color: var(--canvas-background);
+    }
